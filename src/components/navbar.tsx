@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
   }, [isDropdownOpen]);
 
   return (
-    <nav className="dark:bg-white text-white shadow-md p-4 border-b border-black">
+    <nav className="dark:bg-[#f1f5f0] text-white shadow-md p-4 border-b border-black">
       <div className="container mx-auto flex justify-between items-center">
         {/* Left Section - GitHub Icon */}
         <div className="flex space-x-4">
@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
             href="https://github.com/Josh-Harrison1600/Tarkov-Randomizer"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-900 font-bold font-roboto text-xl hover:text-blue-500 transition duration-300 flex items-center"
+            className="text-gray-900 font-bold font-roboto text-xl hover:text-gray-600 transition duration-300 flex items-center"
           >
             <FaGithub className="w-6 h-6 mr-2" />
             GitHub
@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Center Section - Title */}
-        <div className="text-gray-900 absolute left-1/2 transform -translate-x-1/2 text-4xl font-bold hover:text-blue-500 transition duration-300 cursor-pointer">
+        <div className="text-gray-900 absolute left-1/2 transform -translate-x-1/2 text-4xl font-bold hover:text-gray-600 transition duration-300 cursor-pointer">
           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
             <h1>Tarkov Randomizer</h1>
           </a>

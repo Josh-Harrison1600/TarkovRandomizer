@@ -12,6 +12,8 @@
   "dependencies": {
     "@mantine/core": "^7.17.1",
     "@tailwindcss/vite": "^4.0.12",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
     "lucide-react": "^0.479.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

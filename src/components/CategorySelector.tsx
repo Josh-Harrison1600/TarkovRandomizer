@@ -26,6 +26,7 @@ const CategorySelector: React.FC<CategorySelectorProps> = ({ title, items, selec
                   label={item}
                   checked={selectedItems.includes(item)}
                   onChange={() => handleSelection(item)}
+                  color="black"
                 />
               ))}
             </div>
