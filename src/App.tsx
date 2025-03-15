@@ -112,7 +112,10 @@ function App() {
             <h2 className='text-2xl font-bold text-black mb-8'>Generated Loadout:</h2>
             <ul className='mt-2 text-lg'>
               {Object.entries(randomLoadout).map(([category, item]) => (
-                <li key={category} className='mt-1'>{category}: {item || "none"}</li>
+                <li key={category} className='flex flex-col items-center text-black'>
+                  <span className='font-bold text-xl'>{category}:</span>
+                  <span className='text-lg mt-1 font-semibold'>({item || "None" })</span>
+                </li>
               ))}
             </ul>
           </div>
