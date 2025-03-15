@@ -83,7 +83,7 @@ function App() {
     <div className='bg-[#f1f5f0] min-h-screen'>
       <NavBar/>
       {/* Centered Button with Customization Icon */}
-      <div className="flex flex-col items-center justify-start gap-6 mt-10">
+      <div className="flex flex-col items-center justify-start gap-6 mt-10 mr-12">
 
         {/* Customization/Genrate Button */}
         <div className='flex items-center justify-center gap-4'>
@@ -114,7 +114,7 @@ function App() {
               {Object.entries(randomLoadout).map(([category, item]) => (
                 <li key={category} className='flex flex-col items-center text-black'>
                   <span className='font-bold text-xl'>{category}:</span>
-                  <span className='text-lg mt-1 font-semibold'>({item || "None" })</span>
+                  <span className='text-lg mt-1 font-semibold mb-8'>{item || "None" }</span>
                 </li>
               ))}
             </ul>
