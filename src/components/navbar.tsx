@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
         {/* Left Section - GitHub Icon */}
         <div className="flex space-x-4">
           <a
-            href="https://github.com/Josh-Harrison1600/Tarkov-Randomizer"
+            href="https://github.com/Josh-Harrison1600/TarkovRandomizer"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-900 font-bold font-roboto text-xl hover:text-gray-600 transition duration-300 flex items-center"
